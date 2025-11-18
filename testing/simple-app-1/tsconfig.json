@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+     "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "esnext",
+    "types": ["jest", "node"],
+    "isolatedModules": false,
+    "skipLibCheck": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+
+
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    "strict": true,
+    "jsx": "react-jsx",
+
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    
+  },
+  "include": ["src", "**/*.test.ts", "**/*.spec.ts"]
+}
